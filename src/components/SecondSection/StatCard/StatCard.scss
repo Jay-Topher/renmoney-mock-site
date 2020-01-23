@@ -1,0 +1,32 @@
+.StatCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // align-content: space-around;
+  flex-wrap: wrap;
+  flex: 1;
+  height: 260px;
+  padding: 2rem;
+  line-height: 0rem;
+
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .body {
+    font-size: 2rem;
+  }
+
+}
+
+.color_light {
+  background-color: #7cbed7;
+}
+.color_mid {
+  background-color: #0283b3;
+}
+.color_dark {
+  background-color: #005e81;
+}
