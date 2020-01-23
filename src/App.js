@@ -4,6 +4,7 @@ import Navbar from './commons/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import FirstSection from './components/FirstSection/FirstSection';
 import SecondSection from './components/SecondSection/SecondSection';
+import ThirdSection from './components/ThirdSection/ThirdSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <FirstSection />
       <SecondSection />
+      <ThirdSection />
     </div>
   );
 }
