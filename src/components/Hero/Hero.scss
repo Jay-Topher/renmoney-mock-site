@@ -1,0 +1,33 @@
+.Hero {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9) url("/assets/renmoney.jpg") repeat scroll 0% 0%;
+  padding: 0 120px;
+  color: #fff;
+  // background-image: url("/assets/renmoney.jpg") repeat scroll 0% 0%;
+  // background-image: url("assets/renmoney.jpg");
+
+  .hero_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-content: space-between;
+    height: 100%;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 5rem;
+    }
+    .butn {
+      font-size: 2rem;
+      text-decoration: none;
+      font-weight: 700;
+      color: #fff;
+      background-color: #f05822;
+      display: inline-block;
+      width: 20rem;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      border-radius: 10rem;
+    }
+  }
+}
