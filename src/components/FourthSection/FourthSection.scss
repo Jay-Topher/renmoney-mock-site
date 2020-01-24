@@ -1,0 +1,23 @@
+.FourthSection {
+  // display: flex;
+  text-align: center;
+  background-color: #fff;
+  padding: 3rem;
+
+  h3 {
+    font-size: 4rem;
+    margin-top: 3rem;
+
+  }
+
+  .images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+
+    img {
+      height: 3.5rem;
+    }
+  }
+}
