@@ -1,9 +1,9 @@
 .Navbar {
-  // width: 100%;
+  width: 100%;
   padding: 0 120px;
-  border-bottom: 0.5px rgba($color: #fff, $alpha: 0.7);
-  // position: fixed;
+  position: fixed;
   z-index: 99;
+  box-sizing: border-box;
   // display: flex;
   // width: 100%;
 
@@ -11,7 +11,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #000;
+    // background-color: #000;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
     color: #fff;
     align-items: center;
     height: 76px;
