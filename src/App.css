@@ -18,3 +18,17 @@
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+
+.b-1 {
+  font-weight: 500;
+}
+.b-2 {
+  font-weight: 600;
+}
+.b-3 {
+  font-weight: 700;
+}
+
+.custom_link {
+  text-decoration: none;
+}
